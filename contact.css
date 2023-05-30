@@ -1,0 +1,76 @@
+.master-field{
+    padding:4em;
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    gap:3em}
+
+    .form{
+        border:1px solid #e0e0e0;
+        height:100%;
+        width: 50%;
+        padding:3rem;
+        box-shadow:0 0 20px rgb(0 0 0 / 15%);
+        margin:0}
+
+   .info{    
+   display: flex;
+   flex-direction: column;
+    flex:0 0 50%;
+	max-width: 50%;
+    }
+
+form{
+    margin:auto
+}
+input,textarea{
+ margin:2em auto;
+ width:100%;
+ padding:.8em
+}
+input:focus,textarea:focus{
+background-color:#}
+#form-btn{
+padding:.8em;border:1px solid #000;
+background-color:#fff;
+border-radius:5px
+}
+#form-btn:hover{
+cursor:pointer;
+background-color:#000;
+color:#fff;
+transition:all .15s ease-in
+}
+textarea{
+    height:15vh
+}
+.sub-info,.sub-info-main{
+ display:flex;
+ flex-direction: column;
+ /* justify-content:space-around; */
+ margin-bottom:1.3em;gap:3em
+}
+.address-para{
+    line-height:1.5; 
+    font-size:.9rem;
+    width: 24rem; 
+    align-items: left;}
+.address-para,.sub-info-para{
+color:#a78100}
+.map{overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0}
+.map iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute}
+
+#icon-icon{
+    padding:0 2em
+}
+@media (max-width:800px){
+    .master-field,.sub-info,.sub-info-main{
+        display:block}}
