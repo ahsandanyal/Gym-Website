@@ -1,9 +1,11 @@
 const toggle= document.querySelector('.toggle-btn');
 const navLinks = document.querySelector('.nav-links');
-
+const bannert = document.querySelector('.banner');
 
 toggle.addEventListener('click' ,()=> {
 	navLinks.classList.toggle('active')
+    bannert.classList.toggle('active');
+    
 })
 
 
